@@ -1,0 +1,23 @@
+{
+    "$schema": "./task_schema.json",
+    "id": 1,
+    "description": "simple task",
+    "deadline": "2021-12-04T00:00:00Z",
+    "owner": {
+        "id": 1,
+        "name": "sara",
+        "email": "sara@polito.it"
+    },
+    "assignedTo": [
+        {
+          "id": 2,
+          "name": "setare",
+          "email": "setare@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "sare",
+            "email": "sara@gmail.com"
+        }
+    ]
+}
